@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: raleway, sans-serif;
+
+    /* font-weight: 500; */
+
+    /* font-style: normal; */
+
+
+
+}
+
+
+
+.text {
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px purple;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+.navbar {
+    background-color: rgba(25, 0, 0, 0.5);
+    position: relative;
+    height: 60px;
+    border-radius: 0 0px 50px 50px;
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+}
+
+.logo>a>img {
+    height: 60px;
+}
+
+.menu {
+    position: absolute;
+    right: 100px;
+}
+
+.menu menu li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px 20px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 2px;
+    float: left;
+    background-image: linear-gradient(120deg, #63ad89, rgba(24, 67, 144, 0.6)), url(../images/banner.jpg);
+}
+
+.menu menu li:hover {
+    text-decoration: underline;
+    font-size: 26px;
+    text-shadow: 2px 2px 2px red;
+}
+
+menu li ul {
+    display: none;
+}
+
+menu li:hover ul {
+    display: block;
+    /* margin-left: -0px; */
+    position: absolute;
+    top: 60px
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    clear: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+.team {
+    height: 480px;
+    background-color: rgba(28, 207, 207, 0.7);
+
+}
+
+.team_heading {
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.team-member {
+    background-image: linear-gradient(45deg, hotpink, palegreen, purple);
+    width: 21%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 80px 20px;
+
+}
+
+.team-member:hover {
+    box-shadow: 8px 8px 8px grey;
+    transform: translateY(-5px);
+    transition-duration: 1s;
+}
+
+.team-member>img {
+    width: 200px;
+    /*border:2px solid white;*/
+    border-radius: 50%;
+    height: 200px;
+
+}
+
+.team-member>h1,
+.team-member>p {
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+    margin: 10px 0;
+}
+
+.team-member>a {
+    color: white;
+    font-size: 22px;
+    box-shadow: 3px 4px 3px purple;
+    text-decoration: none;
+    border: 2px solid white;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px 40px;
+    line-height: 40px;
+}
+
+.center {
+    /* width: 60%; */
+    text-align: justify;
+
+}
+
+.images1 {
+    float: right;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.main .main>h3 {
+    width: 600px;
+    padding-left: 100px;
+
+
+}
+
+.heading_1 {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.para_1 {
+    padding-top: 50px;
+    padding-left: 200px;
+    font-weight: 500;
+    font-size: larger;
+    width: 500px;
+}
+/* contact */
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background:url(./images/2.png) no-repeat;
+}
+.contact_our_details{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 80vh;
+   float: left;
+   color: white;
+   font-size: larger;
+   box-sizing: border-box;
+   padding: 6%;
+
+}
+.heading_2{
+    
+}
+.para_2{
+    padding:60px 0 0 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.forms_details{
+    width: 48%;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 80vh;
+box-sizing: border-box;
+padding:  7% 7% 7% 80px ;
+
+}
+.forms_details form>input{
+    width: 540px ;
+    height: 38px;
+    font-size: larger;
+    padding-left: 10px;
+    box-shadow: 5px 5px  3px rgba(231, 223, 223, 0.7);
+    outline-offset: none;
+border: 2px white;
+   
+
+}
+.forms_details form>textarea{
+    width: 542px ;
+    height: 138px;
+    font-size: larger;
+    padding-left: 10px;
+    /* box-sizing: none;
+     */  box-shadow: 5px 5px  3px rgba(231, 223, 223, 0.7);
+     resize: none;
+}
+.icon{
+    padding:30px 0 0 40px;
+    font-size: 50px;
+}
+.btn{
+    color: white;
+    background-color: rgb(46, 159, 204);
+    box-sizing: border-box;
+    outline-style: none;
+    outline: none;
+    border:2px rgb(46, 159, 204); ;
+    width: 90px;
+    height: 50px;
+    margin:20px 0 0 450px;
+    font-size: large;
+    cursor: pointer;
+}
